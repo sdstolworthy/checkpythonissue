@@ -1,5 +1,10 @@
 {
   "function": {
+    "checkmodules": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
     "testpythonissue1bfdc6df": {
       "build": true,
       "providerPlugin": "awscloudformation",
