@@ -1,0 +1,24 @@
+version: 1
+backend:
+  phases:
+    # IMPORTANT - Please verify your build commands
+    build:
+      commands:
+        - '# Execute Amplify CLI with the helper script'
+        - amplify --version
+        - ln -fs /usr/local/bin/pip3.8 /usr/bin/pip3
+        - ln -fs /usr/local/bin/python3.8 /usr/bin/python3
+        - pip3 install --user pipenv
+        - amplifyPush --simple
+frontend:
+  phases:
+    build:
+      commands: []
+  artifacts:
+    # IMPORTANT - Please verify your build output directory
+    baseDirectory: /
+    files:
+      - '**/*'
+  cache:
+    paths: []
+
