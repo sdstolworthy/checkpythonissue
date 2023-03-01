@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-testpythonissue-dev-133913-authRole",
+      "UnauthRoleArn": "arn:aws:iam::357880228549:role/amplify-testpythonissue-dev-133913-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::357880228549:role/amplify-testpythonissue-dev-133913-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-testpythonissue-dev-133913-deployment",
+      "UnauthRoleName": "amplify-testpythonissue-dev-133913-unauthRole",
+      "StackName": "amplify-testpythonissue-dev-133913",
+      "StackId": "arn:aws:cloudformation:us-east-1:357880228549:stack/amplify-testpythonissue-dev-133913/4d42dfe0-b76d-11ed-a80d-126e4ccc5485",
+      "AmplifyAppId": "d2li43hd10so2c"
+    },
+    "categories": {
+      "function": {
+        "testpythonissue1bfdc6df": {
+          "deploymentBucketName": "amplify-testpythonissue-dev-133913-deployment",
+          "s3Key": "amplify-builds/testpythonissue1bfdc6df-4773337348545a38762b-build.zip"
+        },
+        "testpythonpythonfunction": {
+          "deploymentBucketName": "amplify-testpythonissue-dev-133913-deployment",
+          "s3Key": "amplify-builds/testpythonpythonfunction-764845474e4339584659-build.zip"
+        }
+      }
+    }
+  }
+}
